@@ -1,0 +1,40 @@
+.experience {
+    background-color: $main-color-navy;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    display: block;
+
+    .experience-contents {
+        text-align: center;
+        color: $main-color-white;
+
+        .white-line {
+            background-color: $main-color-white;
+        }
+    }
+
+    // .experience-block {
+    //     cursor: pointer;
+    //     transition: transform 0.1s;
+    // }
+
+    // .experience-block:hover {
+    //     text-decoration: underline;
+    // }
+}
+
+.vertical-timeline-element-content .vertical-timeline-element-date {
+    color: $main-color-gray;
+}
+
+.icon.fa {
+    display: block;
+    /* width: 24px; */
+    /* height: 24px; */
+    position: relative;
+    left: 50%;
+    top: 50%;
+    margin-left: -12px;
+    margin-top: -12px;
+    font-size: 25px;
+}

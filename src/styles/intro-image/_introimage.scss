@@ -1,0 +1,70 @@
+.title-message {
+    position: absolute;
+    width: 100%;
+    height: 250px;
+    top: 50%;
+    z-index: 5;
+    text-align: center;
+    margin-top: -125px;
+}
+.title-message .heading p {
+    color: $main-color-white;
+    text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);
+    font-weight: 400;
+    letter-spacing: 7px;
+}
+
+.title-message .heading .main {
+    font-size: 50px;
+}
+
+.title-message .heading .sub {
+    color: $main-color-white;
+    text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);
+    font-size: 23px;
+    letter-spacing: 5px;
+}
+
+.overlay {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    z-index: 3;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.slide-container {
+    width: 100%;
+    max-height: 100vh;
+    margin: auto;
+}
+
+.each-slide > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    height: 300px;
+}
+
+.each-slide span {
+    padding: 20px;
+    font-size: 20px;
+    background: $main-color-white;
+    text-align: center;
+}
+
+.each-fade {
+    display: flex;
+}
+
+.each-fade .image-container {
+    width: 100%;
+    overflow: hidden;
+}
+
+.each-fade .image-container img {
+    object-fit: cover;
+    width: 100%;
+    height: 100vh;
+}

@@ -1,0 +1,52 @@
+.about-me {
+    background-color: $main-color-dark-blue;
+    display: block;
+    padding-top: 80px;
+
+    .about-me-contents {
+        color: $main-color-dark-white;
+        text-align: center;
+        margin: auto;
+        max-width: 90%;
+        padding: 20px 0;
+
+        .white-line {
+            background-color: $main-color-white;
+        }
+
+        .about-me-image {
+            width: 20%;
+            border-radius: 50%;
+            border: 2px solid $main-color-white;
+        }
+        .btn-color {
+            background-color: $main-color-red !important;
+        }
+
+        .btn-click {
+            background-color: $main-color-blue;
+            color: $main-color-white;
+            padding: 5px 15px;
+            margin: 15px;
+            font-size: 15px;
+            font-weight: bold;
+
+            &:hover,
+            &:focus,
+            &:active {
+                border-color: $main-color-white !important;
+                background-color: $main-color-navy !important;
+            }
+        }
+
+        @media only screen and (max-width: 765px) {
+            .about-me-image {
+                width: 50%;
+            }
+        }
+    }
+}
+
+.firstLetter {
+    font-size: 140%;
+}

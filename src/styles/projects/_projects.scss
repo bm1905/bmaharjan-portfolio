@@ -1,0 +1,112 @@
+.portfolio {
+    padding-top: 80px;
+    padding-bottom: 50px;
+    background-color: $main-color-white;
+    display: block;
+
+    .portfolio-contents {
+        text-align: center;
+        color: $main-color-navy;
+
+        .portfolio-cards {
+            justify-content: center;
+        }
+
+        .button {
+            width: 45%;
+            margin-bottom: 15px;
+            color: $main-color-white;
+            background-color: $main-color-navy;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            font-size: 0.75rem;
+            padding: 0.55rem;
+            border: none !important;
+            border-radius: 0.25rem;
+            transition: 0.25s;
+        }
+
+        .button:hover {
+            cursor: pointer;
+            background-color: $main-color-dark-blue;
+            text-decoration: underline;
+        }
+
+        .popup-content {
+            max-width: 500px;
+        }
+
+        @media only screen and (max-width: 900px) {
+            .popup-content {
+                width: 60% !important;
+            }
+        }
+
+        @media only screen and (max-width: 600px) {
+            .popup-content {
+                width: 90% !important;
+            }
+        }
+
+        .modal {
+            font-size: 12px;
+            position: relative;
+            display: block;
+            text-align: left;
+
+            ul {
+                list-style-type: none;
+            }
+        }
+        .modal > .header {
+            width: 100%;
+            border-bottom: 1px solid gray;
+            font-size: 18px;
+            text-align: center;
+            padding: 5px;
+        }
+        .modal > .content {
+            width: 100%;
+            padding: 10px 5px;
+        }
+        .modal > .actions {
+            width: 100%;
+            padding: 10px 5px;
+            margin: auto;
+            text-align: center;
+        }
+        .modal > .close {
+            cursor: pointer;
+            position: absolute;
+            display: block;
+            padding: 2px 5px;
+            line-height: 23px;
+            right: 0px;
+            top: 0px;
+            font-size: 24px;
+            background: #ffffff;
+            border-radius: 18px;
+            border: 1px solid #cfcece;
+        }
+    }
+}
+
+.portfolio-text {
+    font-size: 10px;
+    color: $main-color-black;
+    font-weight: bold;
+}
+
+.styles__buy-button___-JjXR {
+    margin: auto;
+    background-color: $main-color-red !important;
+}
+
+.styles__buy-button___-JjXR:hover {
+    background-color: $main-color-dark-red !important;
+    color: $main-color-dark-white;
+}
+
+.styles__product-card___SeyxO {
+    margin: 5px auto !important;
+}

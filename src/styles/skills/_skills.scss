@@ -1,0 +1,28 @@
+.skills {
+    padding-top: 80px;
+    padding-bottom: 50px;
+    background-color: $main-color-white;
+    display: block;
+
+    .skills-contents {
+        text-align: center;
+        color: $main-color-navy;
+    }
+}
+
+.card-dimension {
+    background: $main-color-light-white !important;
+
+    background: radial-gradient(at top left, #e9eefb 99px, #f1f1f1 20px) !important;
+
+    
+
+    box-shadow: 2px 2px 2px 1px rgba(100, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+
+.card-dimension:hover {
+    -ms-transform: scale(1.05); /* IE 9 */
+    -webkit-transform: scale(1.05); /* Safari 3-8 */
+    transform: scale(1.05);
+}

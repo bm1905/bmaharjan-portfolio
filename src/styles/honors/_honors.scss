@@ -1,0 +1,109 @@
+.honor {
+    background-color: $main-color-navy;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    display: block;
+
+    .honor-contents {
+        text-align: center;
+        color: $main-color-white;
+
+        .white-line {
+            background-color: $main-color-white;
+        }
+    }
+
+    ul {
+        font-size: 0.85rem;
+        letter-spacing: 1px;
+        font-weight: 500;
+    }
+}
+
+Collapsible {
+    background-color: $main-color-white;
+}
+
+//The content within the collaspable area
+.Collapsible__contentInner {
+    padding: 10px;
+    border: 1px solid $main-color-gray;
+    border-top: 0;
+    background-color: $main-color-white;
+    //   margin-right: 10px;
+
+    p {
+        margin-bottom: 10px;
+        font-size: 14px;
+        line-height: 20px;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+    a {
+        color: black !important;
+    }
+
+    a:hover {
+        color: $main-color-dark-red !important;
+    }
+}
+
+//The link which when clicked opens the collapsable area
+.Collapsible__trigger {
+    display: block;
+    font-weight: 500;
+    font-size: 1.2rem;
+    text-decoration: none;
+    // color: $main-color-gray;
+    position: relative;
+    border: 1px solid $main-color-white;
+    padding: 10px;
+
+    // background: $main-color-white;
+    color: $main-color-white;
+
+    &:after {
+        font-family: "FontAwesome";
+        content: "\f107";
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        display: block;
+        transition: transform 300ms;
+    }
+
+    &.is-open {
+        &:after {
+            transform: rotateZ(180deg);
+        }
+    }
+
+    &.is-disabled {
+        opacity: 0.5;
+        background-color: grey;
+    }
+}
+
+.Collapsible__trigger:hover {
+    cursor: pointer;
+    color: $main-color-dark-gray;
+}
+
+.CustomTriggerCSS {
+    background-color: lightcoral;
+    transition: background-color 200ms ease;
+}
+
+.CustomTriggerCSS--open {
+    background-color: darkslateblue;
+}
+
+.Collapsible__custom-sibling {
+    padding: 5px;
+    font-size: 12px;
+    background-color: #cbb700;
+    color: black;
+}

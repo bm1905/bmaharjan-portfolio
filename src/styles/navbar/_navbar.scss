@@ -1,0 +1,49 @@
+.sticky-nav {
+    background-color: $main-color-navy;
+
+    .main-name {
+        font-size: 30px;
+        font-weight: bold;
+        color: $main-color-white !important;
+        cursor: pointer;
+    }
+
+    .main-name:hover {
+        color: $main-color-dark-white !important;
+    }
+
+    .other-nav {
+        color: $main-color-gray !important;
+        cursor: pointer;
+    }
+
+    .other-nav:hover {
+        padding-left: 15px;
+        // background-color: $main-color-dark-blue;
+        // -webkit-transition: background-color 2s ease-out;
+        // -moz-transition: background-color 2s ease-out;
+        // -o-transition: background-color 2s ease-out;
+        // transition: background-color 2s ease-out;
+
+        -moz-box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
+        -webkit-box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
+        box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
+    }
+
+    .other-nav-drop {
+        color: $main-color-navy !important;
+    }
+
+    //   .other-nav-right {
+    //     color: $main-color-white !important;
+    //     font-size: 20px;
+    //   }
+
+      .nav-item {
+        margin: 0 10px;
+      }
+}
+
+.navbar-light .navbar-toggler {
+    background-color: $main-color-white;
+}
