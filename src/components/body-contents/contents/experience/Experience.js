@@ -26,9 +26,9 @@ const Experience = () => {
                             title='Student Research Assistant'
                             employer='Louisiana State University - Shreveport'
                             lists={[
-                                'Data Analysis/Research/Visualization',
-                                'Mobile Application Development (ReactNative, Xamarin, Swift)',
-                                'Software/Web Development (React.js, Express.js)'
+                                'Data Analysis/Research/Visualization (Tableau, R, Weka, Orange)',
+                                'Mobile App Development - Frontend (ReactNative, Xamarin, Swift)',
+                                'Node Server and API endpoints development (Express)'
                             ]} />
                     </VerticalTimelineElement>
 

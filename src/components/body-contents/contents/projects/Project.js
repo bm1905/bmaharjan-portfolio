@@ -104,8 +104,7 @@ const Project = () => {
                             <div className="col-lg-4 col-md-6 portfolio-each-card">
                                 <ProductCard
                                     photos={[
-                                        'https://portfolio-bmaharjan.s3.amazonaws.com/default.jpg',
-                                        'https://portfolio-bmaharjan.s3.amazonaws.com/portfolio.jpg'
+                                        'https://portfolio-bmaharjan.s3.amazonaws.com/diabetesApp.jpg',
                                     ]}
                                     productName='Diabetes Risk Calculator'
                                     description={
@@ -114,7 +113,8 @@ const Project = () => {
                                             - Xamarian<br />
                                             - .NET Framework<br />
                                         </span>}
-                                    buttonText='Not Released Yet'
+                                    buttonText='Google Play Store'
+                                    url='https://play.google.com/store/apps/details?id=edu.lsus.DiabetesApplication'
                                 />
                                 <PopUpModal
                                     buttonText='More Info'

@@ -15,9 +15,9 @@ class ImageSlide extends React.Component {
 
     name = "BIJAY MAHARJAN";
     title = [
-        'Full-Stack Developer',
-        'Grad Student',
-        'LSU Shreveport'
+        'Full-Stack-Developer',
+        'LSU-Shreveport',
+        'Graduate-Student'
     ];
 
     fadeImages = [

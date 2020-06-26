@@ -16,6 +16,8 @@ import CPlusPlus from '../../../../images/tools/CPlusPlus.png';
 import Angular from '../../../../images/tools/Angular.png';
 import Swift from '../../../../images/tools/Swift.png';
 import SubVersion from '../../../../images/tools/SVN.png';
+import Docker from '../../../../images/tools/Docker.png';
+import TravisCI from '../../../../images/tools/TravisCI.png';
 
 import ToolCard from './ToolCard';
 
@@ -41,6 +43,8 @@ const Skills = () => {
                         <ToolCard bordercolor='warning' toolname='React Native' image={ReactLogo} />
                         <ToolCard bordercolor='warning' toolname='Xamarin' image={Xamarin} />
                         <ToolCard bordercolor='info' toolname='Git' image={Git} />
+                        <ToolCard bordercolor='info' toolname='Docker' image={Docker} />
+                        <ToolCard bordercolor='info' toolname='TravisCI' image={TravisCI} />
                         <ToolCard bordercolor='dark' toolname='Photoshop' image={Photoshop} />
                     </div>
 
