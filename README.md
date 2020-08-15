@@ -1,5 +1,10 @@
-@author bm1905<br />
+# Portfolio Website
+[Website](http://www.bmaharjan.com/)
 
-## Bijay Maharjan Portfolio
+## Starting development setup
+
+Inside the project:
+`npm run start-dev`
+
 
 The personal portfolio website built with React.js library.

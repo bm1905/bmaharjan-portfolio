@@ -18,6 +18,8 @@ import Swift from '../../../../images/tools/Swift.png';
 import SubVersion from '../../../../images/tools/SVN.png';
 import Docker from '../../../../images/tools/Docker.png';
 import TravisCI from '../../../../images/tools/TravisCI.png';
+import Next from '../../../../images/tools/Next.png';
+import Sanity from '../../../../images/tools/Sanity.png';
 
 import ToolCard from './ToolCard';
 
@@ -56,6 +58,8 @@ const Skills = () => {
                         <ToolCard bordercolor='danger' toolname='Angular' image={Angular} />
                         <ToolCard bordercolor='warning' toolname='Swift' image={Swift} />
                         <ToolCard bordercolor='info' toolname='Subversion' image={SubVersion} />
+                        <ToolCard bordercolor='info' toolname='Sanity' image={Sanity} />
+                        <ToolCard bordercolor='info' toolname='Next.js' image={Next} />
                     </div>
 
                 </div>

@@ -125,6 +125,34 @@ const Project = () => {
                                 />
                             </div>
 
+                            <div className="col-lg-4 col-md-6 portfolio-each-card">
+                                <ProductCard
+                                    photos={[
+                                        'https://portfolio-bmaharjan.s3.amazonaws.com/Blog1.PNG',
+                                        'https://portfolio-bmaharjan.s3.amazonaws.com/Blog2.PNG',
+                                        'https://portfolio-bmaharjan.s3.amazonaws.com/Blog3.PNG',
+                                    ]}
+                                    productName='My Blogs'
+                                    description={
+                                        <span className="portfolio-text">
+                                            Blog Website created using headless CMS Sanity<br />
+                                            - Next.js<br />
+                                            - Sanity CMS<br />
+                                        </span>}
+                                    buttonText='GitHub Repo'
+                                    url='https://github.com/bm1905/myblog'
+                                />
+                                <PopUpModal
+                                    buttonText='More Info'
+                                    projectName='My Blogs'
+                                    projectDescription='This a blog website created using Sanity and Next.js. The frontend part is
+                                    created using Next.js and React-Bootstrap while all the blog contents are managed using headless
+                                    CMS Sanity.'
+                                    toolsUsed={['Next.js, React-Bootstrap, Sanity']}
+                                    website='http://blogs.bmaharjan.com/'
+                                />
+                            </div>
+
                         </div>
                     </div>
                 </div>

@@ -1,7 +1,10 @@
 @import "styles/main.scss";
+@import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
 
-html {
-    font-family: "Titillium Web", sans-serif;
+html,
+body {
+    // font-family: "Titillium Web", sans-serif;
+    font-family: "Questrial", sans-serif !important;
     font-size: 13px;
     letter-spacing: 1px;
 }

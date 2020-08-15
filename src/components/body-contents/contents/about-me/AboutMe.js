@@ -31,6 +31,7 @@ const AboutMe = () => {
                     <div>
                         <a href={Resume} target="_blank" rel="noopener noreferrer"><button className="btn btn-click btn-form">RESUME</button></a>
                         <a href="mailTo:bijay.maharjan5@gmail.com"><button className="btn btn-click btn-color btn-form">HIRE ME</button></a>
+                        <a href="http://blogs.bmaharjan.com/" target="_blank" rel="noopener noreferrer"><button className="btn btn-click btn-form">MY BLOGS</button></a>
                     </div>
                 </div>
             </div>

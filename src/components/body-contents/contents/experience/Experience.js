@@ -23,12 +23,13 @@ const Experience = () => {
                         iconStyle={{ background: '#2196f3', color: '#fff' }}
                         icon={<i className='fa fa-briefcase icon'></i>} >
                         <ExperienceCard
-                            title='Student Research Assistant'
+                            title='Lab Research Assistant'
                             employer='Louisiana State University - Shreveport'
                             lists={[
                                 'Data Analysis/Research/Visualization (Tableau, R, Weka, Orange)',
-                                'Mobile App Development - Frontend (ReactNative, Xamarin, Swift)',
-                                'Node Server and API endpoints development (Express)'
+                                'Mobile App Development and Deployment to Google and Apple Store - Frontend (ReactNative, Xamarin, Swift)',
+                                'Node Server and RESTful API development (Express)',
+                                'SQL Database Schemas desgins and formulating scripts to automate insertion of data from large CSV files to the respective tables in the database.'
                             ]} />
                     </VerticalTimelineElement>
 
@@ -58,7 +59,8 @@ const Experience = () => {
                             title='Full Time Undergraduate Student'
                             employer='Louisiana State University - Shreveport'
                             lists={[
-                                'BS Computer Science - Software Development'
+                                'BS Computer Science - Software Development',
+                                '3.95 GPA, Summa Cum Laude'
                             ]} />
                     </VerticalTimelineElement>
 

@@ -65,8 +65,12 @@
 .fa-facebook,
 .fa-linkedin,
 .fa-instagram,
+.fa-file-text,
 .fa-snapchat {
     transition: color 0.2s;
+}
+.fa-file-text:hover {
+    color: #55acee;
 }
 
 .fa-facebook:hover {
