@@ -13,7 +13,7 @@ import {
     DropdownItem
 } from 'reactstrap';
 
-import Resume from '../../../images/resume/Resume_Maharjan_Bijay.pdf';
+import * as constants from 'constants/Constants';
 
 const NavBar = (props) => {
     const [isOpen, setIsOpen] = useState(false);
@@ -32,7 +32,7 @@ const NavBar = (props) => {
         <div>
             <Navbar className="sticky-nav" light expand="md">
                 <NavbarBrand className="main-name main-nav"
-                onClick={() => mainPostion.scrollIntoView({ behavior: 'smooth', block: 'start', inline: 'end' })}
+                    onClick={() => mainPostion.scrollIntoView({ behavior: 'smooth', block: 'start', inline: 'end' })}
                 >
                     BM
                 </NavbarBrand>
@@ -41,21 +41,21 @@ const NavBar = (props) => {
                     <Nav className="mr-auto" navbar>
                         <NavItem>
                             <NavLink className="other-nav"
-                            onClick={() => aboutMePostion.scrollIntoView({ behavior: 'smooth', block: 'start', inline: 'end' })}
+                                onClick={() => aboutMePostion.scrollIntoView({ behavior: 'smooth', block: 'start', inline: 'end' })}
                             >
                                 About Me
                             </NavLink>
                         </NavItem>
                         <NavItem>
                             <NavLink className="other-nav"
-                            onClick={() => skillsPostion.scrollIntoView({ behavior: 'smooth', block: 'start', inline: 'end' })}
+                                onClick={() => skillsPostion.scrollIntoView({ behavior: 'smooth', block: 'start', inline: 'end' })}
                             >
                                 Skills
                             </NavLink>
                         </NavItem>
                         <NavItem>
                             <NavLink className="other-nav"
-                            onClick={() => experiencePostion.scrollIntoView({ behavior: 'smooth', block: 'start', inline: 'end' })}
+                                onClick={() => experiencePostion.scrollIntoView({ behavior: 'smooth', block: 'start', inline: 'end' })}
                             >
                                 Timeline
                             </NavLink>
@@ -66,13 +66,13 @@ const NavBar = (props) => {
                             </DropdownToggle>
                             <DropdownMenu right>
                                 <DropdownItem className="other-nav-drop"
-                                onClick={() => portfolioPostion.scrollIntoView({ behavior: 'smooth', block: 'start', inline: 'end' })}
+                                    onClick={() => portfolioPostion.scrollIntoView({ behavior: 'smooth', block: 'start', inline: 'end' })}
                                 >
                                     Projects
                                 </DropdownItem>
                                 <DropdownItem divider />
                                 <DropdownItem className="other-nav-drop"
-                                onClick={() => honorPostion.scrollIntoView({ behavior: 'smooth', block: 'start', inline: 'end' })}
+                                    onClick={() => honorPostion.scrollIntoView({ behavior: 'smooth', block: 'start', inline: 'end' })}
                                 >
                                     Awards &amp; Certifications
                                 </DropdownItem>
@@ -80,14 +80,14 @@ const NavBar = (props) => {
                         </UncontrolledDropdown>
                         <NavItem>
                             <NavLink className="other-nav"
-                            onClick={() => footerPostion.scrollIntoView({ behavior: 'smooth', block: 'start', inline: 'end' })}
+                                onClick={() => footerPostion.scrollIntoView({ behavior: 'smooth', block: 'start', inline: 'end' })}
                             >
                                 Contacts
                             </NavLink>
                         </NavItem>
                         <NavItem>
                             <NavLink className="other-nav"
-                            href={Resume} target='_blank'
+                                href={constants.MY_RESUME} target='_blank'
                             >Resume</NavLink>
                         </NavItem>
                     </Nav>

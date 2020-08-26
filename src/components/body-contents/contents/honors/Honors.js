@@ -1,8 +1,41 @@
 import React from 'react';
 import Collapsible from 'react-collapsible';
-import { Element } from 'react-scroll'
+import { Element } from 'react-scroll';
+import * as constants from 'constants/Constants';
 
 const Honors = () => {
+
+    const honors = constants.HONORS.map((honor, index) => {
+        let point =
+            <li>
+                <a
+                    href={honor.link}
+                    target='_blank'
+                    rel='noopener noreferrer'
+                >
+                    {honor.title}
+                </a>
+            </li>;
+
+        return (
+            honor.priority ?
+                <div key={index}>
+                    <br />
+                    {point}
+                </div>
+                :
+                <div key={index}>
+                    {point}
+                </div>
+        )
+    });
+
+    const certifications = constants.CERTIFICATIONS.map((certificate, index) => {
+        return (
+            <li key={index}>{certificate.title}</li>
+        );
+    });
+
     return (
         <Element id="honors-destination" name="honors-destination">
             <div className="honor">
@@ -15,43 +48,7 @@ const Honors = () => {
                     <Collapsible trigger="Honors">
                         <div>
                             <ul>
-                                <li><a href='https://www.lsus.edu/news-and-events/lsu-shreveport-dean%E2%80%99s-and-chancellor%E2%80%99s-lists-announced-for-fall-2017-semester-'
-                                    target='_blank'
-                                    rel='noopener noreferrer'>
-                                    LSUS Chancellor’s List - Fall 2017
-                                    </a>
-                                </li>
-                                <li><a href='https://www.lsus.edu/news-and-events/lsus-announces-chancellors-and-deans-lists-for-spring-2018'
-                                    target='_blank'
-                                    rel='noopener noreferrer'>
-                                    LSUS Chancellor’s List - Spring 2018
-                                    </a>
-                                </li>
-                                <li><a href='https://www.lsus.edu/news-and-events/fall-2018-chancellors-list-and-deans-list'
-                                    target='_blank'
-                                    rel='noopener noreferrer'>
-                                    LSUS Chancellor’s List - Fall 2018
-                                    </a>
-                                </li>
-                                <li><a href='https://www.lsus.edu/news-and-events/spring-2019-chancellors-list-and-deans-list'
-                                    target='_blank'
-                                    rel='noopener noreferrer'>
-                                    LSUS Dean’s List - Spring 2019
-                                    </a>
-                                </li>
-                                <li><a href='https://www.lsus.edu/news-and-events/fall-2019-chancellors-and-deans-lists'
-                                    target='_blank'
-                                    rel='noopener noreferrer'>
-                                    LSUS Chancellor’s List - Fall 2019
-                                    </a>
-                                </li>
-                                <br />
-                                <li><a href='https://www.lsus.edu/news-and-events/lsus-announces-university-award-recipients-for-spring-2020'
-                                    target='_blank'
-                                    rel='noopener noreferrer'>
-                                    LSUS Outstanding Student of the year 2020
-                                    </a>
-                                </li>
+                                {honors}
                             </ul>
                         </div>
                     </Collapsible>
@@ -59,7 +56,7 @@ const Honors = () => {
                     <Collapsible trigger="Certifications">
                         <div>
                             <ul>
-                                <li>Still Pursuing</li>
+                                {certifications}
                             </ul>
                         </div>
                     </Collapsible>

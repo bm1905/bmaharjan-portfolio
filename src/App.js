@@ -1,7 +1,5 @@
 import React from 'react';
 import { BrowserRouter, Route } from 'react-router-dom';
-
-import logo from './logo.svg';
 import './App.css';
 
 import MyPortfolio from './components/my-portfolio/MyPortfolio';
@@ -9,9 +7,9 @@ import MyPortfolio from './components/my-portfolio/MyPortfolio';
 function App() {
   return (
     <BrowserRouter>
-    <div className="App">
-      <Route exact path='/' component={MyPortfolio}/>
-    </div>
+      <div className="App">
+        <Route exact path='/' component={MyPortfolio} />
+      </div>
     </BrowserRouter>
   );
 }

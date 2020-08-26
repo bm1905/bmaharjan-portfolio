@@ -1,7 +1,19 @@
 import React from 'react';
-import { Element } from 'react-scroll'
+import { Element } from 'react-scroll';
+import * as constants from 'constants/Constants';
 
 const Footer = () => {
+
+    const socialIcons = constants.SOCIAL_ICONS.map((socialIcon, index) => {
+        return (
+            <li key={index}>
+                <a href={socialIcon.link} target='_blank' rel='noopener noreferrer'>
+                    <i className={`fa fa-${socialIcon.iconName}`}></i>
+                </a>
+            </li>
+        );
+    });
+
     return (
         <Element id="footer-destination" name="footer-destination">
             <div className="more-info">
@@ -9,22 +21,19 @@ const Footer = () => {
                     <div className="row more-info-text">
                         <div className="col-md-4 block">
                             <h4 className="title">WHAT'S HAPPENING</h4>
-                            <p className="text">I am still working on couple of side projects (for mobile application
-                            and web application) including improving the portfolio and blog website. I am also
-                            preparing for JAVA SE Certification.
-                            </p>
+                            <p className="text">{constants.FOOTER_INTRO}</p>
                         </div>
                         <div className="col-md-4 block">
                             <h4 className="title">MY INFO</h4>
-                            <p className="text"><i className="fa fa-home icons"></i>Shreveport, LA</p>
-                            <p className="text"><i className="fa fa-envelope icons"></i>bijay.maharjan5@gmail.com</p>
-                            <p className="text"><i className="fa fa-phone icons"></i>(870)-949-9173</p>
+                            <p className="text"><i className="fa fa-home icons"></i>{constants.CONTACT[0] || 'N/A'}</p>
+                            <p className="text"><i className="fa fa-envelope icons"></i>{constants.CONTACT[1] || 'N/A'}</p>
+                            <p className="text"><i className="fa fa-phone icons"></i>{constants.CONTACT[2] || 'N/A'}</p>
                         </div>
                         <div className="col-md-4 block">
                             <h4 className="title">INTERESTED AREA</h4>
                             <ul className="text">
-                                <li>Ethical Hacking</li>
-                                <li>BlockChain &amp; Cryptocurrency</li>
+                                <li>{constants.INTERESTED_AREA[0] || 'N/A'}</li>
+                                <li>{constants.INTERESTED_AREA[1] || 'N/A'}</li>
                             </ul>
                         </div>
                     </div>
@@ -33,44 +42,9 @@ const Footer = () => {
             <div className="copyrightSection">
                 <div className="col-md-12 text-center">
                     <ul className="social-links">
-                        <li><a href='http://blogs.bmaharjan.com/'
-                            target='_blank'
-                            rel='noopener noreferrer'>
-                            <i className="fa fa-file-text"></i>
-                        </a>
-                        </li>
-                        <li><a href='https://www.facebook.com/bmaharjan.chelsea'
-                            target='_blank'
-                            rel='noopener noreferrer'>
-                            <i className="fa fa-facebook"></i>
-                        </a>
-                        </li>
-                        <li><a href='https://www.instagram.com/m_reus111'
-                            target='_blank'
-                            rel='noopener noreferrer'>
-                            <i className="fa fa-instagram"></i>
-                        </a>
-                        </li>
-                        <li><a href='https://www.linkedin.com/in/bijay-maharjan-10654b92'
-                            target='_blank'
-                            rel='noopener noreferrer'>
-                            <i className="fa fa-linkedin"></i>
-                        </a>
-                        </li>
-                        <li><a href='https://github.com/bm1905'
-                            target='_blank'
-                            rel='noopener noreferrer'>
-                            <i className="fa fa-github"></i>
-                        </a>
-                        </li>
-                        <li><a href='https://stackoverflow.com/users/8922935/bijay-maharjan'
-                            target='_blank'
-                            rel='noopener noreferrer'>
-                            <i className="fa fa-stack-overflow"></i>
-                        </a>
-                        </li>
+                        {socialIcons}
                     </ul>
-                    <p>&copy; Copyright Bijay Maharjan 2020</p>
+                    <p>&copy; {constants.COPYRIGHT}</p>
                 </div>
             </div>
         </Element>

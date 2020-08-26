@@ -1,32 +1,22 @@
 import React from 'react';
 import { Fade } from 'react-slideshow-image';
 import { Element } from 'react-scroll';
-
+import * as constants from 'constants/Constants';
+import { getSlideImages } from 'helpers';
 import TitleText from './TitleText';
-
-import Slide1 from '../../images/imageslides/slide1.jpg';
-import Slide2 from '../../images/imageslides/slide2.jpg';
-import Slide3 from '../../images/imageslides/slide3.jpg';
-import Slide4 from '../../images/imageslides/slide4.jpg';
-import Slide5 from '../../images/imageslides/slide5.jpg';
-import Slide6 from '../../images/imageslides/slide6.jpg';
 
 class ImageSlide extends React.Component {
 
-    name = "BIJAY MAHARJAN";
-    title = [
-        'Full-Stack-Developer',
-        'LSU-Shreveport',
-        'Graduate-Student'
-    ];
+    name = constants.MY_NAME;
+    title = constants.SUB_TITLES;
 
     fadeImages = [
-        Slide1,
-        Slide2,
-        Slide3,
-        Slide4,
-        Slide5,
-        Slide6
+        getSlideImages['slide1.jpg'],
+        getSlideImages['slide2.jpg'],
+        getSlideImages['slide3.jpg'],
+        getSlideImages['slide4.jpg'],
+        getSlideImages['slide5.jpg'],
+        getSlideImages['slide6.jpg']
     ];
 
     fadeProperties = {
