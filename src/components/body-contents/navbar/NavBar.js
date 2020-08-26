@@ -13,7 +13,7 @@ import {
     DropdownItem
 } from 'reactstrap';
 
-import * as constants from 'constants/Constants';
+import * as constants from 'src/constants/Constants';
 
 const NavBar = (props) => {
     const [isOpen, setIsOpen] = useState(false);

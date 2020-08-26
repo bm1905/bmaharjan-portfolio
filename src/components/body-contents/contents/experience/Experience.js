@@ -1,6 +1,6 @@
 import React from 'react';
 import { Element } from 'react-scroll';
-import * as constants from 'constants/Constants';
+import * as constants from 'src/constants/Constants';
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import ExperienceCard from './ExperienceCard';
 
