@@ -1,7 +1,7 @@
 // Import assets.
 // Do not modify this.
-import Picture from 'src/images/profile-picture/circle.jpg';
-import Resume from 'src/images/resume/Resume_Maharjan_Bijay.pdf'
+import Picture from '../images/profile-picture/circle.jpg';
+import Resume from '../images/resume/Resume_Maharjan_Bijay.pdf'
 
 // Custom inputs.
 // Modify this.

@@ -1,8 +1,8 @@
 import React from 'react';
 import { Fade } from 'react-slideshow-image';
 import { Element } from 'react-scroll';
-import * as constants from 'src/constants/Constants';
-import { getSlideImages } from 'src/helpers';
+import * as constants from '../../constants/Constants';
+import { getSlideImages } from '../../helpers';
 import TitleText from './TitleText';
 
 class ImageSlide extends React.Component {
