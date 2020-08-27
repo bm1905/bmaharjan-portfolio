@@ -8,7 +8,7 @@ const Experience = () => {
 
     const experiences = constants.EXPERIENCE.map((experience, index) => {
         return (
-            index % 2 === 0 ?
+            experience.work ?
                 <VerticalTimelineElement
                     key={index}
                     className="vertical-timeline-element--work"

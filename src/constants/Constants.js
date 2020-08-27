@@ -39,6 +39,7 @@ export const EMAIL = "bijay.maharjan5@gmail.com";
 export const EXPERIENCE = [
     {
         title: 'Lab Research Assistant',
+        work: true,
         employer: 'Louisiana State University - Shreveport',
         lists:
             [
@@ -51,6 +52,7 @@ export const EXPERIENCE = [
     },
     {
         title: 'Full Time Graduate Student',
+        work: false,
         employer: 'Louisiana State University - Shreveport',
         lists:
             [
@@ -60,6 +62,7 @@ export const EXPERIENCE = [
     },
     {
         title: 'Full Time Undergraduate Student',
+        work: false,
         employer: 'Louisiana State University - Shreveport',
         lists:
             [
@@ -70,6 +73,7 @@ export const EXPERIENCE = [
     },
     {
         title: 'Motion Graphics Designer',
+        work: true,
         employer: 'TV Filmy - Kathmandu, Nepal',
         lists:
             [
@@ -82,6 +86,7 @@ export const EXPERIENCE = [
     },
     {
         title: 'Visual Editor/Graphics Designer',
+        work: true,
         employer: 'Mountain Television - Kathmandu, Nepal',
         lists:
             [
