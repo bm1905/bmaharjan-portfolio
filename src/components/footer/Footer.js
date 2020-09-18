@@ -34,6 +34,7 @@ const Footer = () => {
                             <ul className="text">
                                 <li>{constants.INTERESTED_AREA[0] || 'N/A'}</li>
                                 <li>{constants.INTERESTED_AREA[1] || 'N/A'}</li>
+                                <li>{constants.INTERESTED_AREA[2] || 'N/A'}</li>
                             </ul>
                         </div>
                     </div>

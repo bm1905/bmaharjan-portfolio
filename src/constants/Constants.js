@@ -17,15 +17,16 @@ export const MY_RESUME = Resume;
 //=============================================================================
 // Intro Text.
 //=============================================================================
-export const FIRST_INTO = `Possessing the required knowledge for a full-stack 
-development with an emphasis on Web and Mobile Application Development.Extensive 
-use of JavaScript for frontend(React.js, Angular.js) and backend(Express.js), 
-comfortable using both relational(MySQL) as well as non - relational(MongoDB) 
-database, version control system like Git or SVN and familiar with CI / CD pipeline.`;
+export const FIRST_INTO = `Possessing the required knowledge for full-stack 
+application development with extensive use of modern Javascript frameworks and 
+libraries, specializing in React.js and Node.js. 📌 Comfortable using both 
+MySQL as well as NO-SQL database systems, both centralized and distributed 
+version control systems, and familiar with the CI/CD pipeline.`;
 
-export const SECOND_INTRO = `Experienced graphics designer with a demonstrated 
-history of working in the 3D and VFX industry, aiming to blend my designing and 
-programming skills to create beautiful and interactive Mobile and Web Applications.`;
+export const SECOND_INTRO = `Proficient in multiple scripting/programming 
+languages with advanced knowledge of developer applications, tools, methodologies, 
+and best practices including OOD, cloud computing, client/server architecture, 
+and self-test automation.`;
 
 //=============================================================================
 // Links.
@@ -43,10 +44,11 @@ export const EXPERIENCE = [
         employer: 'Louisiana State University - Shreveport',
         lists:
             [
-                'Data Analysis/Research/Visualization (Tableau, R, Weka, Orange)',
-                'Mobile App Development and Deployment to Google and Apple Store - Frontend (ReactNative, Xamarin, Swift)',
-                'Node Server and RESTful API development (Express)',
-                'SQL Database Schemas desgins and formulating scripts to automate insertion of data from large CSV files to the respective tables in the database.'
+                'Develop a cross-platform mobile application, deploy to Google Play Store and Apple Store.',
+                'Design Schema for SQL database and formulate scripts to automate the insertion of data from CSV files to the database.',
+                'Analyze and visualize several biomedical data using Tableau, Weka, R, and Orange.',
+                'Design and implement backend server architecture using Node.js and develop RESTful APIs.',
+                'Extensive use of HTML/CSS and Photoshop skills to create UI/UX design.'
             ],
         date: 'June 2019 - Present'
     },
@@ -56,7 +58,8 @@ export const EXPERIENCE = [
         employer: 'Louisiana State University - Shreveport',
         lists:
             [
-                'MS Computer System Technology - Computer Science'
+                'MS Computer System Technology - Computer Science (4+1 Program, Combined M.S and B.S)',
+                'Relevant Courses: Software Engineering Concept, Database Modeling and Design, Data Mining, Machine Learning, Mobile Programming'
             ],
         date: '2019 - Present'
     },
@@ -67,7 +70,8 @@ export const EXPERIENCE = [
         lists:
             [
                 'BS Computer Science - Software Development',
-                '3.95 GPA, Summa Cum Laude'
+                '3.95 GPA, Summa Cum Laude',
+                'Relevant Courses: Data Structures, Analysis of Algorithms, Object-Oriented Programming, Compiler Design, Systems Programming, Database Systems, Rapid App Development'
             ],
         date: '2015 - 2020'
     },
@@ -151,8 +155,8 @@ export const CERTIFICATIONS = [
 //=============================================================================
 export const PROJECTS = [
     {
-        name: 'ApartmentMe',
-        description: `CSC 680/681 Class Project - A web application web application 
+        name: 'Apartment-Me',
+        description: `CSC 680/681 Class Project - A web application 
         portal that allows user to easily search and post apartments for rent.`,
         status: 'In-Progress',
         photos: [
@@ -175,7 +179,7 @@ export const PROJECTS = [
         }
     },
     {
-        name: 'Portfolio',
+        name: 'Personal Portfolio',
         description: `This is my personal Portfolio Website built using React.js library 
         where I post my educational and professional information.`,
         status: 'Complete',
@@ -295,7 +299,7 @@ preparing for JAVA SE Certification.`;
 
 export const CONTACT = ['Shreveport, LA', 'bijay.maharjan5@gmail.com', '(870)-949-9173'];
 
-export const INTERESTED_AREA = ['Ethical Hacking', 'BlockChain & Cryptocurrency'];
+export const INTERESTED_AREA = ['Ethical Hacking', 'Machine Learning', 'BlockChain & Cryptocurrency'];
 
 
 //=============================================================================
