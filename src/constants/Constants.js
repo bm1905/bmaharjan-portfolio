@@ -58,8 +58,8 @@ export const EXPERIENCE = [
         employer: 'Louisiana State University - Shreveport',
         lists:
             [
-                'MS Computer System Technology - Computer Science (4+1 Program, Combined M.S and B.S)',
-                'Relevant Courses: Software Engineering Concept, Database Modeling and Design, Data Mining, Machine Learning, Mobile Programming'
+                'MS Computer System Technology - Computer Science (4+1 Program, Combined M.S and B.S), 4.0 GPA',
+                'Relevant Courses: Software Engineering Concept, Database Modeling and Design, Data Mining, Machine Learning, Mobile Development(iOS), Information Visualization'
             ],
         date: '2019 - Present'
     },
@@ -69,9 +69,9 @@ export const EXPERIENCE = [
         employer: 'Louisiana State University - Shreveport',
         lists:
             [
-                'BS Computer Science - Software Development',
-                '3.95 GPA, Summa Cum Laude',
-                'Relevant Courses: Data Structures, Analysis of Algorithms, Object-Oriented Programming, Compiler Design, Systems Programming, Database Systems, Rapid App Development'
+                'BS Computer Science - Software Development, 3.95 GPA',
+                'Relevant Courses: Data Structures, Analysis of Algorithms, Object-Oriented Programming, Compiler Design, Systems Programming, Database Systems, Rapid App Development',
+                'Awards: Summa Cum Laude, LSUS Outstanding Student Award 2019'
             ],
         date: '2015 - 2020'
     },
