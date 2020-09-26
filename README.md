@@ -1,5 +1,5 @@
 # Portfolio Website
-[Website](http://www.bmaharjan.com/)
+[Website](https://www.bmaharjan.com/)
 
 ## Starting development setup
 
