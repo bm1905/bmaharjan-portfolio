@@ -1,13 +1,11 @@
 const express = require('express');
 const path = require('path');
 const bodyParser = require('body-parser');
-const sslRedirect = require('heroku-ssl-redirect');
 
 // Use this to access DB URL.
 const config = require('./config');
 
 const app = express();
-app.use(sslRedirect());
 app.use(bodyParser.json());
 
 
