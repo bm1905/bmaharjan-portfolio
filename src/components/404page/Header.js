@@ -6,11 +6,7 @@ import {
     NavbarBrand,
     Nav,
     NavItem,
-    NavLink,
-    UncontrolledDropdown,
-    DropdownToggle,
-    DropdownMenu,
-    DropdownItem
+    NavLink
 } from 'reactstrap';
 
 import * as constants from '../../constants/Constants';
@@ -35,7 +31,7 @@ const Header = (props) => {
                             </NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink className="other-nav" href='https://www.bmaharjan.com'>
+                            <NavLink className="other-nav" href={`mailTo:${constants.EMAIL}`}>
                                 Contact Me
                             </NavLink>
                         </NavItem>
