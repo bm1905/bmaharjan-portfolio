@@ -22,11 +22,9 @@ app.use(bodyParser.json());
 
 
 if (process.env.NODE_ENV === 'production') {
-
+    app.use(forceSsl());
     const appPath = path.join(__dirname, '..', 'build');
     app.use(express.static(appPath));
-
-    app.use(forceSsl());
     app.get('*', function (req, res) {
         res.sendFile(path.resolve(appPath, 'index.html'));
     });
