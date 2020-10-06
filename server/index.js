@@ -9,13 +9,13 @@ const config = require('./config');
 const app = express();
 app.use(bodyParser.json());
 
-
 if (process.env.NODE_ENV === 'production') {
+
     const appPath = path.join(__dirname, '..', 'build');
-    app.use(sslRedirect());
     app.use(express.static(appPath));
 
     app.get('*', function (req, res) {
+        app.use(sslRedirect());
         res.sendFile(path.resolve(appPath, 'index.html'));
     });
 };
