@@ -11,7 +11,7 @@ function App() {
       <div className="App">
         <Switch>
           <Route exact path='/' component={MyPortfolio} />
-          <Route path='*' component={NotFoundPage} />
+          <Route path='/*' component={NotFoundPage} />
         </Switch>
       </div>
     </BrowserRouter>
