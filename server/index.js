@@ -1,3 +1,4 @@
+const sslRedirect = require('heroku-ssl-redirect');
 const express = require('express');
 const path = require('path');
 const bodyParser = require('body-parser');
@@ -6,6 +7,7 @@ const bodyParser = require('body-parser');
 const config = require('./config');
 
 const app = express();
+app.use(sslRedirect());
 app.use(bodyParser.json());
 
 
