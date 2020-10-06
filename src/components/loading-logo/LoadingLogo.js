@@ -1,22 +1,27 @@
-import React from 'react';
-import $ from 'jquery';
+/**
+ * Depreciated, discontinued for now.
+ * Will replace with updated code soon.
+ */
 
-class LoadingLogo extends React.Component {
-    componentDidMount() {
-        $(window).on("load", function () {
-            $(".loader .inner").fadeOut(500, function () {
-                $(".loader").fadeOut(750);
-            });
-        });
-    };
+// import React from 'react';
+// import $ from 'jquery';
 
-    render() {
-        return (
-            <div className="loader">
-                <div className="inner"></div>
-            </div>
-        )
-    }
-};
+// class LoadingLogo extends React.Component {
+//     componentDidMount() {
+//         $(window).on("load", function () {
+//             $(".loader .inner").fadeOut(500, function () {
+//                 $(".loader").fadeOut(750);
+//             });
+//         });
+//     };
 
-export default LoadingLogo;
+//     render() {
+//         return (
+//             <div className="loader">
+//                 <div className="inner"></div>
+//             </div>
+//         )
+//     }
+// };
+
+// export default LoadingLogo;
