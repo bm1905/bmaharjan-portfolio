@@ -9,8 +9,8 @@ function App() {
   return (
     <BrowserRouter>
       <div className="App">
+        <Route exact path='/' component={MyPortfolio} />
         <Switch>
-          <Route exact path='/' component={MyPortfolio} />
           <Route path='/*' component={NotFoundPage} />
         </Switch>
       </div>
