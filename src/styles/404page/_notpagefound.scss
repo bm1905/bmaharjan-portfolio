@@ -1,0 +1,30 @@
+.notfound-container {
+    width: 100%;
+    height: 93vh;
+    background: url("https://portfolio-bmaharjan.s3.amazonaws.com/404.jpg") center no-repeat;
+    // linear-gradient(to right, rgba(12, 1, 59, 0.5), rgba(15, 15, 15, 0.5)), url('https://images.pexels.com/photos/731082/pexels-photo-731082.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940') center no-repeat;
+    background-size: cover;
+}
+
+.headerText {
+    font-family: "Montserrat", sans-serif;
+    padding: 10vh 10px 0 10px;
+    // padding: 80px 50px;
+    text-align: center;
+    // text-transform: uppercase;
+    text-rendering: optimizeLegibility;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    //   background-color: #e7e5e4;
+    letter-spacing: 0em;
+
+    & .heading-text {
+        font-size: 4vh;
+    }
+    & .subheading-text {
+        font-size: 1.9vh;
+    }
+    & .thirdheading-text {
+        font-size: 1.5vh;
+    }
+}
