@@ -8,7 +8,7 @@ class MyPortfolio extends React.Component {
     render() {
         return (
             <React.Fragment>
-                {/* <LoadingLogo /> */}
+                <LoadingLogo />
                 <ImageSlide />
                 <MainBody />
             </React.Fragment>

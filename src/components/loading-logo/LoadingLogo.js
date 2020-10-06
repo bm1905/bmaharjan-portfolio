@@ -1,27 +1,28 @@
 /**
- * Depreciated, discontinued for now.
+ * Depreciated
  * Will replace with updated code soon.
  */
 
-// import React from 'react';
-// import $ from 'jquery';
+import React from 'react';
+import $ from 'jquery';
 
-// class LoadingLogo extends React.Component {
-//     componentDidMount() {
-//         $(window).on("load", function () {
-//             $(".loader .inner").fadeOut(500, function () {
-//                 $(".loader").fadeOut(750);
-//             });
-//         });
-//     };
+class LoadingLogo extends React.Component {
 
-//     render() {
-//         return (
-//             <div className="loader">
-//                 <div className="inner"></div>
-//             </div>
-//         )
-//     }
-// };
+    componentDidMount() {
+        $(window).on("load", function () {
+            $(".loader .inner").fadeOut(500, function () {
+                $(".loader").fadeOut(750);
+            });
+        });
+    }
 
-// export default LoadingLogo;
+    render() {
+        return (
+            <div className="loader">
+                <div className="inner"></div>
+            </div>
+        )
+    }
+};
+
+export default LoadingLogo;
