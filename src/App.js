@@ -9,9 +9,9 @@ function App() {
   return (
     <BrowserRouter>
       <div className="App">
-        <Route exact path='/' component={MyPortfolio} />
         <Switch>
-          <Route path='/*' component={NotFoundPage} />
+          <Route exact path='/' component={MyPortfolio} />
+          <Route component={NotFoundPage} />
         </Switch>
       </div>
     </BrowserRouter>
