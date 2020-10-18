@@ -1,8 +1,8 @@
 import React from 'react';
 import { Element } from 'react-scroll';
-import * as constants from '../../../../constants/Constants';
+import * as constants from '../../../constants/Constants';
 import ToolCard from './ToolCard';
-import { getSkillIcons } from '../../../../helpers';
+import { getSkillIcons } from '../../../helpers';
 
 const Skills = () => {
 

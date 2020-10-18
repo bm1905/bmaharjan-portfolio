@@ -1,6 +1,6 @@
 import React from 'react';
-import Header from './Header';
-import Footer from '../footer/Footer';
+import Header from './NotFoundHeader';
+import Footer from '../portfolio/contents/footer/Footer';
 
 
 class NotFoundPage extends React.Component {

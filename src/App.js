@@ -2,8 +2,10 @@ import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import './App.css';
 
-import MyPortfolio from './components/my-portfolio/MyPortfolio';
-import NotFoundPage from './components/404page/NotFoundPage';
+import MyPortfolio from './portfolio/Portfolio';
+import NotFoundPage from './404page/NotFoundPage';
+
+
 
 function App() {
   return (

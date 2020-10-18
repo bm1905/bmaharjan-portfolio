@@ -1,13 +1,13 @@
 import React from 'react';
 import { StickyContainer, Sticky } from 'react-sticky';
 
-import NavBar from '../navbar/NavBar';
-import AboutMe from '../contents/about-me/AboutMe';
-import Skills from '../contents/skills/Skills';
-import Experience from '../contents/experience/Experience';
-import Project from '../contents/projects/Project';
-import Honors from '../contents/honors/Honors';
-import Footer from '../../footer/Footer';
+import Navbar from './navbar/Navbar';
+import AboutMe from './about-me/AboutMe';
+import Skills from './skills/Skills';
+import Experience from './experience/Experience';
+import Project from './projects/Project';
+import Honors from './honors/Honors';
+import Footer from './footer/Footer';
 
 class MainBody extends React.Component {
     render() {
@@ -16,7 +16,7 @@ class MainBody extends React.Component {
                 <Sticky topOffset={0}>
                     {({ style }) => (
                         <header className="sticky-navbar" style={style}>
-                            <NavBar />
+                            <Navbar />
                         </header>
                     )}
                 </Sticky>

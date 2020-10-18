@@ -1,7 +1,7 @@
 // Import assets.
 // Do not modify this.
-import Picture from '../images/profile-picture/circle.jpg';
-import Resume from '../images/resume/Resume_Maharjan_Bijay.pdf'
+import Picture from '../static/images/profile-picture/circle.jpg';
+import Resume from '../static/resume/Resume_Maharjan_Bijay.pdf'
 
 // Custom inputs.
 // Modify this.
@@ -13,6 +13,8 @@ export const MY_NAME = "Bijay Maharjan";
 export const MY_TITLE = "Full-Stack Developer";
 export const MY_IMAGE = Picture;
 export const MY_RESUME = Resume;
+export const MY_WEBSITE = "https://www.bmaharjan.com/";
+export const MY_BLOGS = "http://blogs.bmaharjan.com/";
 
 //=============================================================================
 // Intro Text.
@@ -44,13 +46,25 @@ export const EXPERIENCE = [
         employer: 'Louisiana State University - Shreveport',
         lists:
             [
-                'Develop a cross-platform mobile application, deploy to Google Play Store and Apple Store.',
-                'Design Schema for SQL database and formulate scripts to automate the insertion of data from CSV files to the database.',
+                'Developing cross-platform mobile application, deploy them to Google Play Store and Apple Store.',
+                'Designing SQL schemas for several databases, write scripts to automate the insertion of a large chunk of data from CSV files to the database.',
                 'Analyze and visualize several biomedical data using Tableau, Weka, R, and Orange.',
                 'Design and implement backend server architecture using Node.js and develop RESTful APIs.',
-                'Extensive use of HTML/CSS and Photoshop skills to create UI/UX design.'
+                'Extensive use of HTML/CSS and Photoshop skills to create UI/UX design.',
+                'Implement CI/CD pipeline with automated testing and version controls like Git and SVN for smooth and efficient application productions.'
             ],
         date: 'June 2019 - Present'
+    },
+    {
+        title: 'Full Stack Developer Intern',
+        work: true,
+        employer: 'STEM-Away Remote',
+        lists:
+            [
+                'Developed a custom discourse theme using JavaScript, CSS, and Handlebars that can be integrated into any discourse forums.',
+                'Collaborated with international team members remotely and presented the final product to the Vice President of Software Development Business Strategy at Intel.'
+            ],
+        date: 'June 2020 - August 2020'
     },
     {
         title: 'Full Time Graduate Student',

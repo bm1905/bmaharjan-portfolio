@@ -9,7 +9,7 @@ import {
     NavLink
 } from 'reactstrap';
 
-import * as constants from '../../constants/Constants';
+import * as constants from '../constants/Constants';
 
 const Header = (props) => {
     const [isOpen, setIsOpen] = useState(false);
@@ -19,14 +19,14 @@ const Header = (props) => {
     return (
         <div>
             <Navbar className="sticky-nav" light expand="md">
-                <NavbarBrand className="main-name main-nav" href='https://www.bmaharjan.com'>
+                <NavbarBrand className="main-name main-nav" href={constants.MY_WEBSITE}>
                     BM
                 </NavbarBrand>
                 <NavbarToggler onClick={toggle} />
                 <Collapse isOpen={isOpen} navbar>
                     <Nav className="mr-auto" navbar>
                         <NavItem>
-                            <NavLink className="other-nav" href='http://blogs.bmaharjan.com'>
+                            <NavLink className="other-nav" href={constants.MY_BLOGS}>
                                 My Blogs
                             </NavLink>
                         </NavItem>

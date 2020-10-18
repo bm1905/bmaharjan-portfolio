@@ -2,7 +2,7 @@ import React from 'react';
 import { Element } from 'react-scroll'
 import { ProductCard } from 'react-ui-cards';
 import PopUpModal from './PopUpModal';
-import * as constants from '../../../../constants/Constants';
+import * as constants from '../../../constants/Constants';
 
 const Project = () => {
 

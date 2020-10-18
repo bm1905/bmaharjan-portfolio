@@ -4,5 +4,5 @@ const importAll = require =>
         return acc;
     }, {});
 
-export const getSkillIcons = importAll(require.context('../images/tools', false, /\.(png|jpe?g|svg)$/));
-export const getSlideImages = importAll(require.context('../images/imageslides', false, /\.(png|jpe?g|svg)$/));
+export const getSkillIcons = importAll(require.context('../static/images/tools', false, /\.(png|jpe?g|svg)$/));
+export const getSlideImages = importAll(require.context('../static/images/imageslides', false, /\.(png|jpe?g|svg)$/));

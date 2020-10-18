@@ -1,7 +1,7 @@
 import React from 'react';
 import Collapsible from 'react-collapsible';
 import { Element } from 'react-scroll';
-import * as constants from '../../../../constants/Constants';
+import * as constants from '../../../constants/Constants';
 
 const Honors = () => {
 

@@ -1,8 +1,8 @@
 import React from 'react';
 
-import LoadingLogo from '../loading-logo/LoadingLogo';
-import ImageSlide from '../intro-image/ImageSlide';
-import MainBody from '../body-contents/main-body/MainBody';
+import LoadingLogo from './loading-logo/LoadingLogo';
+import ImageSlide from './image-slides/ImageSlide';
+import Contents from './contents/Contents';
 
 class MyPortfolio extends React.Component {
     render() {
@@ -10,7 +10,7 @@ class MyPortfolio extends React.Component {
             <React.Fragment>
                 <LoadingLogo />
                 <ImageSlide />
-                <MainBody />
+                <Contents />
             </React.Fragment>
         )
     }
