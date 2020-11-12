@@ -249,7 +249,7 @@ export const PROJECTS = [
             it is yet to be available in Apple Store.`,
             tools: ['C#', 'Xamarin Forms', 'SVN'],
             buttonText: 'More Info',
-            link: ''
+            link: 'https://apps.apple.com/us/app/diabetes-risk-assessment/id1539983994'
         }
     },
     {
