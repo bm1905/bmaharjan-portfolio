@@ -313,7 +313,7 @@ preparing for JAVA SE Certification.`;
 
 export const CONTACT = ['Shreveport, LA', 'bijay.maharjan5@gmail.com', '(870)-949-9173'];
 
-export const INTERESTED_AREA = ['Software Development', 'Machine Learning'];
+export const INTERESTED_AREA = ['Software Development', 'Machine Learning', 'BlockChain'];
 
 
 //=============================================================================
