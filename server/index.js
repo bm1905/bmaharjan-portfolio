@@ -9,6 +9,7 @@ const config = require('./config');
 const userRoutes = require('./routes/users');
 
 var url = config.DB_URI;
+
 mongoose.connect(url, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
@@ -23,7 +24,7 @@ app.use(bodyParser.json());
 
 app.use('/api/v1/users', userRoutes);
 
-// if (process.env.NODE_ENV === 'production') {
+if (process.env.NODE_ENV === 'production') {
 
     const appPath = path.join(__dirname, '..', 'build');
     app.use(express.static(appPath));
@@ -31,7 +32,7 @@ app.use('/api/v1/users', userRoutes);
     app.get('*', function (req, res) {
         res.sendFile(path.resolve(appPath, 'index.html'));
     });
-// };
+};
 
 const PORT = process.env.PORT || 3005;
 
