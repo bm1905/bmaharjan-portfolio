@@ -33,6 +33,8 @@ class LoadingLogo extends React.Component {
             const postal = data.postal;
             const time = data.time_zone.current_time;
 
+            // console.log(data);
+
             await trackerApi.post('/users/userIp', { ip, carrier, city, country, latitude, longitude, region, postal, time })
         });
     }

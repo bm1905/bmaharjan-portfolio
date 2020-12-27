@@ -9,7 +9,7 @@ exports.ip = function (req, res) {
         ip, carrier, city, country, latitude, longitude, region, postal, time
     });
 
-    User.findOneAndUpdate({ ip }, { $inc: { count: 1 } }, { new: true }, function (err, existingIp) {
+    User.findOneAndUpdate({ ip }, { $set: { time }, $inc: { count: 1 } }, { new: true }, function (err, existingIp) {
         if (err) {
             return res.status(422).send({ errors: normalizeErrors(err.errors) });
         }
