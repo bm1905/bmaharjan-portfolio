@@ -11,10 +11,10 @@ function App() {
   return (
     <BrowserRouter>
       <div className="App">
-        <Switch>
+        {/* <Switch> */}
           <Route exact path='/' component={MyPortfolio} />
-          <Route component={NotFoundPage} />
-        </Switch>
+          {/* <Route component={NotFoundPage} /> */}
+        {/* </Switch> */}
       </div>
     </BrowserRouter>
   );
