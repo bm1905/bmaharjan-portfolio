@@ -172,7 +172,7 @@ export const PROJECTS = [
         name: 'Apartment-Me',
         description: `CSC 680/681 Class Project - A web application 
         portal that allows user to easily search and post apartments for rent.`,
-        status: 'In-Progress',
+        status: 'Not Maintained',
         photos: [
             'https://portfolio-bmaharjan.s3.amazonaws.com/apartmentMe.jpg',
             'https://portfolio-bmaharjan.s3.amazonaws.com/apartmentMe1.jpg'
