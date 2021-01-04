@@ -168,28 +168,47 @@ export const CERTIFICATIONS = [
 // Projects.
 //=============================================================================
 export const PROJECTS = [
+    // {
+    //     name: 'iOS Clock',
+    //     description: `The iOS clock application with location based weather updates.`,
+    //     status: 'Not Maintained',
+    //     photos: [
+    //         'https://portfolio-bmaharjan.s3.amazonaws.com/ios1.jpg',
+    //         'https://portfolio-bmaharjan.s3.amazonaws.com/ios2.jpg'
+    //     ],
+    //     buttonText: 'GitHub Repo',
+    //     buttonLink: 'https://github.com/bm1905/iOS-Clock',
+    //     popup: {
+    //         name: 'iOS Clock',
+    //         description: `This is the iOS application that I developed when taking 'Introduction to iOS' class. 
+    //         I created graphics art using Adobe Photoshop and integrated with Xcode. The application 
+    //         displays analog clock with time and weather of the selected location. The location can 
+    //         be changed in the app. Some of the layout still needs to be adjusted in the app.`,
+    //         tools: ['Swift', 'XCode'],
+    //         buttonText: 'More Info',
+    //         link: ''
+    //     }
+    // },
+
     {
-        name: 'Apartment-Me',
-        description: `CSC 680/681 Class Project - A web application 
-        portal that allows user to easily search and post apartments for rent.`,
-        status: 'Not Maintained',
+        name: 'My Blogs',
+        description: `This is the Blog Website created using headless CMS Sanity and Next.js.`,
+        status: 'Complete',
         photos: [
-            'https://portfolio-bmaharjan.s3.amazonaws.com/apartmentMe.jpg',
-            'https://portfolio-bmaharjan.s3.amazonaws.com/apartmentMe1.jpg'
+            'https://portfolio-bmaharjan.s3.amazonaws.com/Blog1.PNG',
+            'https://portfolio-bmaharjan.s3.amazonaws.com/Blog2.PNG',
+            'https://portfolio-bmaharjan.s3.amazonaws.com/Blog3.PNG',
         ],
         buttonText: 'GitHub Repo',
-        buttonLink: 'https://github.com/bm1905/apartmentme-react-redux',
+        buttonLink: 'https://github.com/bm1905/myblog',
         popup: {
-            name: 'ApartmentMe Project',
-            description: `This is the group project for class CSC 680/681. It is a web 
-            application that allows people to search or post for rooms/apartments within
-            particular location. Responsive frontend is built using React and Bootstrap. 
-            RESTful API and backend server is built using Node.js, Express.js and MongoDB. 
-            Automated CI/CD pipeline is implemented using Heroku and GitHub. MongoLab and
-            AWS S3 bucket are utilized for storing user data and images.`,
-            tools: ['HTML/CSS/SASS', 'JavaScript', 'React.js', 'Express.js', 'MongoDB', 'Git', 'Heroku'],
+            name: 'My Blogs',
+            description: `This a blog website created using Sanity and Next.js. The frontend part is 
+            created using Next.js and React-Bootstrap while all the blog contents are managed using
+            headless CMS Sanity.`,
+            tools: ['Next.js, React-Bootstrap, Sanity'],
             buttonText: 'More Info',
-            link: 'https://apartmentme.herokuapp.com/'
+            link: 'http://blogs.bmaharjan.com/'
         }
     },
     {
@@ -212,27 +231,6 @@ export const PROJECTS = [
             link: ''
         }
     },
-    // {
-    //     name: 'iOS Clock',
-    //     description: `The iOS clock application with location based weather updates.`,
-    //     status: 'Not Maintained',
-    //     photos: [
-    //         'https://portfolio-bmaharjan.s3.amazonaws.com/ios1.jpg',
-    //         'https://portfolio-bmaharjan.s3.amazonaws.com/ios2.jpg'
-    //     ],
-    //     buttonText: 'GitHub Repo',
-    //     buttonLink: 'https://github.com/bm1905/iOS-Clock',
-    //     popup: {
-    //         name: 'iOS Clock',
-    //         description: `This is the iOS application that I developed when taking 'Introduction to iOS' class. 
-    //         I created graphics art using Adobe Photoshop and integrated with Xcode. The application 
-    //         displays analog clock with time and weather of the selected location. The location can 
-    //         be changed in the app. Some of the layout still needs to be adjusted in the app.`,
-    //         tools: ['Swift', 'XCode'],
-    //         buttonText: 'More Info',
-    //         link: ''
-    //     }
-    // },
     {
         name: 'Diabetes Risk Calculator',
         description: `Cross platform mobile application developed at Louisiana State University - Shreveport.`,
@@ -253,24 +251,46 @@ export const PROJECTS = [
         }
     },
     {
-        name: 'My Blogs',
-        description: `This is the Blog Website created using headless CMS Sanity and Next.js.`,
-        status: 'Complete',
+        name: 'MMM-WiseQuotes',
+        description: `Custom module for Magic Mirror that displays random quotes to the screen.`,
+        status: 'In Progress',
         photos: [
-            'https://portfolio-bmaharjan.s3.amazonaws.com/Blog1.PNG',
-            'https://portfolio-bmaharjan.s3.amazonaws.com/Blog2.PNG',
-            'https://portfolio-bmaharjan.s3.amazonaws.com/Blog3.PNG',
+            'https://portfolio-bmaharjan.s3.amazonaws.com/magicmirror.jpg'
         ],
         buttonText: 'GitHub Repo',
-        buttonLink: 'https://github.com/bm1905/myblog',
+        buttonLink: 'https://github.com/bm1905/MMM-WiseQuotes',
         popup: {
-            name: 'My Blogs',
-            description: `This a blog website created using Sanity and Next.js. The frontend part is 
-            created using Next.js and React-Bootstrap while all the blog contents are managed using
-            headless CMS Sanity.`,
-            tools: ['Next.js, React-Bootstrap, Sanity'],
+            name: 'MMM-WiseQuotes',
+            description: `This is the custom module for Magic Mirror that displays random quotes
+            to the screen. The current (test) version works fine with hardcoded quotes. The API
+            server which allows to fetch the quote randomly is under development.`,
+            tools: ['JavaScript', 'Raspberry Pi'],
             buttonText: 'More Info',
-            link: 'http://blogs.bmaharjan.com/'
+            link: ''
+        }
+    },
+    {
+        name: 'Apartment-Me',
+        description: `CSC 680/681 Class Project - A web application 
+        portal that allows user to easily search and post apartments for rent.`,
+        status: 'Not Maintained',
+        photos: [
+            'https://portfolio-bmaharjan.s3.amazonaws.com/apartmentMe.jpg',
+            'https://portfolio-bmaharjan.s3.amazonaws.com/apartmentMe1.jpg'
+        ],
+        buttonText: 'GitHub Repo',
+        buttonLink: 'https://github.com/bm1905/apartmentme-react-redux',
+        popup: {
+            name: 'ApartmentMe Project',
+            description: `This is the group project for class CSC 680/681. It is a web 
+            application that allows people to search or post for rooms/apartments within
+            particular location. Responsive frontend is built using React and Bootstrap. 
+            RESTful API and backend server is built using Node.js, Express.js and MongoDB. 
+            Automated CI/CD pipeline is implemented using Heroku and GitHub. MongoLab and
+            AWS S3 bucket are utilized for storing user data and images.`,
+            tools: ['HTML/CSS/SASS', 'JavaScript', 'React.js', 'Express.js', 'MongoDB', 'Git', 'Heroku'],
+            buttonText: 'More Info',
+            link: 'https://apartmentme.herokuapp.com/'
         }
     }
 ];
