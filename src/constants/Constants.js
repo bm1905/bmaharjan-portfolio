@@ -352,4 +352,4 @@ export const COPYRIGHT = "Copyright Bijay Maharjan 2020";
 //=============================================================================
 // Image Slider
 //=============================================================================
-export const SUB_TITLES = ['Full-Stack-Developer', 'LSU-Shreveport', 'Graduate-Student'];
+export const SUB_TITLES = ['Software-Developer', 'MS-Computer-Science'];
