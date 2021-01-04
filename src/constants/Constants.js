@@ -10,7 +10,7 @@ import Resume from '../static/resume/Resume_Maharjan_Bijay.pdf'
 // Personal Details.
 //=============================================================================
 export const MY_NAME = "Bijay Maharjan";
-export const MY_TITLE = "Full-Stack Developer";
+export const MY_TITLE = "Software Developer";
 export const MY_IMAGE = Picture;
 export const MY_RESUME = Resume;
 export const MY_WEBSITE = "https://www.bmaharjan.com/";
@@ -20,9 +20,9 @@ export const MY_BLOGS = "http://blogs.bmaharjan.com/";
 // Intro Text.
 //=============================================================================
 export const FIRST_INTO = `Possessing the required knowledge for full-stack 
-application development with extensive use of modern Javascript frameworks and 
-libraries, specializing in React.js and Node.js. 📌 Comfortable using both 
-MySQL as well as NO-SQL database systems, both centralized and distributed 
+application development with extensive use of modern frameworks and 
+libraries. 📌 Comfortable using both relational as well as non-relational 
+database systems, both centralized and distributed 
 version control systems, and familiar with the CI/CD pipeline.`;
 
 export const SECOND_INTRO = `Proficient in multiple scripting/programming 
@@ -41,19 +41,19 @@ export const EMAIL = "bijay.maharjan5@gmail.com";
 //=============================================================================
 export const EXPERIENCE = [
     {
-        title: 'Lab Research Assistant',
+        title: 'Graduate Assistant',
         work: true,
         employer: 'Louisiana State University - Shreveport',
         lists:
             [
-                'Developing cross-platform mobile application, deploy them to Google Play Store and Apple Store.',
-                'Designing SQL schemas for several databases, write scripts to automate the insertion of a large chunk of data from CSV files to the database.',
-                'Analyze and visualize several biomedical data using Tableau, Weka, R, and Orange.',
-                'Design and implement backend server architecture using Node.js and develop RESTful APIs.',
-                'Extensive use of HTML/CSS and Photoshop skills to create UI/UX design.',
-                'Implement CI/CD pipeline with automated testing and version controls like Git and SVN for smooth and efficient application productions.'
+                'Developed cross-platform mobile application, deployed them to Google Play Store and Apple Store.',
+                'Designed SQL schemas for several databases, wrote scripts to automate the insertion of a large chunk of data from CSV files to the database.',
+                'Analyzed and visualized several biomedical data using Tableau, Weka, R, and Orange.',
+                'Designed and implemented backend server architecture using Node.js, .NET Core and developed RESTful APIs.',
+                'Extensive used HTML/CSS and Photoshop skills to create UI/UX design.',
+                'Implemented CI/CD pipeline with automated testing and version controls like Git and SVN for smooth and efficient application productions.'
             ],
-        date: 'June 2019 - Present'
+        date: 'June 2019 - December 2020'
     },
     {
         title: 'Full Stack Developer Intern',
@@ -72,7 +72,7 @@ export const EXPERIENCE = [
         employer: 'Louisiana State University - Shreveport',
         lists:
             [
-                'MS Computer System Technology - Computer Science (4+1 Program, Combined M.S and B.S), 4.0 GPA',
+                'MS Computer Systems Technology - Computer Science (4+1 Program, Combined M.S and B.S), 4.0 GPA',
                 'Relevant Courses: Software Engineering Concept, Database Modeling and Design, Data Mining, Machine Learning, Mobile Development(iOS), Information Visualization'
             ],
         date: '2019 - Present'
@@ -212,27 +212,27 @@ export const PROJECTS = [
             link: ''
         }
     },
-    {
-        name: 'iOS Clock',
-        description: `The iOS clock application with location based weather updates.`,
-        status: 'Not Maintained',
-        photos: [
-            'https://portfolio-bmaharjan.s3.amazonaws.com/ios1.jpg',
-            'https://portfolio-bmaharjan.s3.amazonaws.com/ios2.jpg'
-        ],
-        buttonText: 'GitHub Repo',
-        buttonLink: 'https://github.com/bm1905/iOS-Clock',
-        popup: {
-            name: 'iOS Clock',
-            description: `This is the iOS application that I developed when taking 'Introduction to iOS' class. 
-            I created graphics art using Adobe Photoshop and integrated with Xcode. The application 
-            displays analog clock with time and weather of the selected location. The location can 
-            be changed in the app. Some of the layout still needs to be adjusted in the app.`,
-            tools: ['Swift', 'XCode'],
-            buttonText: 'More Info',
-            link: ''
-        }
-    },
+    // {
+    //     name: 'iOS Clock',
+    //     description: `The iOS clock application with location based weather updates.`,
+    //     status: 'Not Maintained',
+    //     photos: [
+    //         'https://portfolio-bmaharjan.s3.amazonaws.com/ios1.jpg',
+    //         'https://portfolio-bmaharjan.s3.amazonaws.com/ios2.jpg'
+    //     ],
+    //     buttonText: 'GitHub Repo',
+    //     buttonLink: 'https://github.com/bm1905/iOS-Clock',
+    //     popup: {
+    //         name: 'iOS Clock',
+    //         description: `This is the iOS application that I developed when taking 'Introduction to iOS' class. 
+    //         I created graphics art using Adobe Photoshop and integrated with Xcode. The application 
+    //         displays analog clock with time and weather of the selected location. The location can 
+    //         be changed in the app. Some of the layout still needs to be adjusted in the app.`,
+    //         tools: ['Swift', 'XCode'],
+    //         buttonText: 'More Info',
+    //         link: ''
+    //     }
+    // },
     {
         name: 'Diabetes Risk Calculator',
         description: `Cross platform mobile application developed at Louisiana State University - Shreveport.`,
@@ -285,6 +285,7 @@ export const PRIMARY_SKILLS = [
     { toolname: 'MongoDB', image: 'MongoDB.png', borderColor: 'success' },
     { toolname: 'MySQL', image: 'MySQL.png', borderColor: 'success' },
     { toolname: 'React.js', image: 'React.png', borderColor: 'danger' },
+    { toolname: '.NET Core', image: 'Core.png', borderColor: 'danger' },
     { toolname: 'Express.js', image: 'Express.png', borderColor: 'danger' },
     { toolname: 'React Native', image: 'React.png', borderColor: 'warning' },
     { toolname: 'Xamarin', image: 'Xamarin.png', borderColor: 'warning' },
