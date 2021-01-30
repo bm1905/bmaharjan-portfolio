@@ -10,7 +10,7 @@ import Resume from '../static/resume/Resume_Maharjan_Bijay.pdf'
 // Personal Details.
 //=============================================================================
 export const MY_NAME = "Bijay Maharjan";
-export const MY_TITLE = "Software Developer";
+export const MY_TITLE = "Software Developer at Charles Schwab";
 export const MY_IMAGE = Picture;
 export const MY_RESUME = Resume;
 export const MY_WEBSITE = "https://www.bmaharjan.com/";
@@ -40,6 +40,16 @@ export const EMAIL = "bijay.maharjan5@gmail.com";
 // Experience.
 //=============================================================================
 export const EXPERIENCE = [
+    {
+        title: 'Software Developer I',
+        work: true,
+        employer: 'Charles Schwab',
+        lists:
+            [
+                'Working on some cool applications....'
+            ],
+        date: 'January 2021 - Present'
+    },
     {
         title: 'Graduate Assistant',
         work: true,
@@ -372,4 +382,4 @@ export const COPYRIGHT = "Copyright Bijay Maharjan 2020";
 //=============================================================================
 // Image Slider
 //=============================================================================
-export const SUB_TITLES = ['Software-Developer', 'MS-Computer-Science'];
+export const SUB_TITLES = ['Software-Developer', 'Charles-Schwab', 'MS-Computer-Science'];
