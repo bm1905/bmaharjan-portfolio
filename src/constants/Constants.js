@@ -46,7 +46,7 @@ export const EXPERIENCE = [
         employer: 'Charles Schwab',
         lists:
             [
-                'Working on some cool applications....'
+                'Working on several cool applications.'
             ],
         date: 'January 2021 - Present'
     },
@@ -85,7 +85,7 @@ export const EXPERIENCE = [
                 'MS Computer Systems Technology - Computer Science (4+1 Program, Combined M.S and B.S), 4.0 GPA',
                 'Relevant Courses: Software Engineering Concept, Database Modeling and Design, Data Mining, Machine Learning, Mobile Development(iOS), Information Visualization'
             ],
-        date: '2019 - Present'
+        date: '2019 - 2020'
     },
     {
         title: 'Full Time Undergraduate Student',
