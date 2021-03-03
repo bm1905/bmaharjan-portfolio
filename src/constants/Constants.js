@@ -21,14 +21,12 @@ export const MY_BLOGS = "http://blogs.bmaharjan.com/";
 //=============================================================================
 export const FIRST_INTO = `Possessing the required knowledge for full-stack 
 application development with extensive use of modern frameworks and 
-libraries. 📌 Comfortable using both relational as well as non-relational 
-database systems, both centralized and distributed 
-version control systems, and familiar with the CI/CD pipeline.`;
-
-export const SECOND_INTRO = `Proficient in multiple scripting/programming 
+libraries. 📌 Comfortable with multiple scripting/programming 
 languages with advanced knowledge of developer applications, tools, methodologies, 
-and best practices including OOD, cloud computing, client/server architecture, 
-and self-test automation.`;
+and best practices including Object Oriented Design, Cloud Computing, 
+Microservices, Client/Server Architecture, and self-test automation.`;
+
+export const SECOND_INTRO = ``;
 
 //=============================================================================
 // Links.
@@ -312,8 +310,9 @@ export const PRIMARY_SKILLS = [
     { toolname: 'JAVA', image: 'JAVA.png', borderColor: 'primary' },
     { toolname: 'C#', image: 'Csharp.png', borderColor: 'primary' },
     { toolname: 'JavaScript', image: 'JavaScript.png', borderColor: 'primary' },
-    { toolname: 'MongoDB', image: 'MongoDB.png', borderColor: 'success' },
+    { toolname: 'SQL Server', image: 'SQLServer.png', borderColor: 'success' },
     { toolname: 'MySQL', image: 'MySQL.png', borderColor: 'success' },
+    { toolname: 'MongoDB', image: 'MongoDB.png', borderColor: 'success' },
     { toolname: 'React.js', image: 'React.png', borderColor: 'danger' },
     { toolname: '.NET Core', image: 'Core.png', borderColor: 'danger' },
     { toolname: 'Express.js', image: 'Express.png', borderColor: 'danger' },
@@ -322,6 +321,7 @@ export const PRIMARY_SKILLS = [
     { toolname: 'Git', image: 'Git.png', borderColor: 'info' },
     { toolname: 'Docker', image: 'Docker.png', borderColor: 'info' },
     { toolname: 'TravisCI', image: 'TravisCI.png', borderColor: 'info' },
+    { toolname: 'RabbitMQ', image: 'RabbitMQ.png', borderColor: 'info' },
     { toolname: 'Photoshop', image: 'Photoshop.png', borderColor: 'dark' }
 ];
 
@@ -338,11 +338,11 @@ export const SECONDARY_SKILLS = [
 //=============================================================================
 // Footer.
 //=============================================================================
-export const FOOTER_INTRO = `I am still working on couple of side projects (for mobile application
-and web application) including improving the portfolio and blog website.I am also
-preparing for JAVA SE Certification.`;
+export const FOOTER_INTRO = `Beside my full time job at Charles Schwab, I am 
+still working on couple of side projects including mobile and web applications.
+I am also preparing for JAVA and C# certifications.`;
 
-export const CONTACT = ['Shreveport, LA', 'bijay.maharjan5@gmail.com', '(870)-949-9173'];
+export const CONTACT = ['Shreveport, LA', 'bijay.maharjan5@gmail.com', '(870)-250-9220'];
 
 export const INTERESTED_AREA = ['Software Development', 'Machine Learning', 'BlockChain'];
 
@@ -377,7 +377,7 @@ export const SOCIAL_ICONS = [
     }
 ];
 
-export const COPYRIGHT = "Copyright Bijay Maharjan 2020";
+export const COPYRIGHT = "Copyright Bijay Maharjan 2021";
 
 //=============================================================================
 // Image Slider
